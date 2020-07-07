@@ -1,3 +1,6 @@
+## 1.0.0 - 7 Jul 2020
+Bug fixes
+
 ## 0.9.6 - 30 June 2020
 ### Added
 - A new bot service instance is automatically created in Azure when a bot/messaging extension project is provisioned and requires one.
