@@ -1,0 +1,12 @@
+{
+    "configurableTabs": [
+        {
+            "configurationUrl": "{baseUrl}/config",
+            "canUpdateConfiguration": true,
+            "scopes": [
+                "team",
+                "groupchat"
+            ]
+        }
+    ]
+}
