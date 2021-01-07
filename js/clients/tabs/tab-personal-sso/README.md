@@ -14,7 +14,7 @@ Tabs are Teams-aware webpages embedded in Microsoft Teams. Personal tabs are sco
 ## ngrok
 
 Teams needs to access your tab from a publically accessible URL. If you are running your app in localhost, you will need to use a tunneling service like ngrok. Run ngrok and point it to localhost.
-  `ngrok http http://localhost:3000`
+  `ngrok http https://localhost:3000`
 
 Note: It may be worth purchasing a basic subscription to ngrok so you can get a fixed subdomain ( see the --subdomain ngrok parameter)
 
