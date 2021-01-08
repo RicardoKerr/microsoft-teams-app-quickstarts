@@ -28,3 +28,14 @@ On the first time running and debugging your app you need allow the localhost ce
 
 ### NOTE: Debugging
 Ensure you have the Debugger for Chrome/Edge extension installed for Visual Studio Code from the marketplace.
+
+### Build for production
+`npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.

@@ -9,7 +9,7 @@ import * as microsoftTeams from "@microsoft/teams-js";
  * The 'Config' component is used to display your group tabs
  * user configuration options.  Here you will allow the user to 
  * make their choices and once they are done you will need to validate
- * thier choices and communicate that to Teams to enable the save button.
+ * their choices and communicate that to Teams to enable the save button.
  */
 class TabConfig extends React.Component {
     render() {

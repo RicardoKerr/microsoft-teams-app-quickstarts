@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Privacy from "./Privacy";
 import TermsOfUse from "./TermsOfUse";
 import Tab from "./Tab";
+import ConsentPopup from "./ConsentPopup";
+import ClosePopup from "./ClosePopup";
 import TabConfig from "./TabConfig";
 
 /**
@@ -26,7 +28,9 @@ function App() {
       <Route exact path="/privacy" component={Privacy} />
       <Route exact path="/termsofuse" component={TermsOfUse} />
       <Route exact path="/tab" component={Tab} />
-      <Route exact path="/config" component={TabConfig} />
+      <Route exact path="/config" component={TabConfig}/>
+      <Route exact path="/auth-start" component={ConsentPopup} />
+      <Route exact path="/auth-end" component={ClosePopup} />
     </Router>
   );
 }
